@@ -6,7 +6,48 @@
     <link href="./src/output.css" rel="stylesheet" />
     <title>Github Learning</title>
   </head>
-  <body>
-    <h1>Hello Github!</h1>
+  <body class="h-svh w-full bg-zinc-50">
+    <main
+      class="h-full w-full flex justify-center items-center flex-col gap-8 px-4"
+    >
+      <h1 class="text-4xl text-zinc-900 font-bold">Hello Github!</h1>
+      <div
+        class="flex flex-col gap-4 max-w-sm w-full shadow-lg border border-zinc-300 p-8 rounded-md"
+      >
+        <h3 class="text-zinc-900 text-2xl font-bold">Little card</h3>
+        <p class="text-zinc-900/85 text-sm/6">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem
+          quia rerum incidunt maiores maxime blanditiis voluptatem sapiente
+          nulla perferendis!
+        </p>
+        <ul class="grid gap-2 col grid-cols-1 md:grid-cols-2">
+          <li
+            class="bg-zinc-200 py-2 px-4 rounded-md shadow cursor-pointer hover:bg-blue-200 transition-all duration-200 ease-in-out"
+          >
+            Dog
+          </li>
+          <li
+            class="bg-zinc-200 py-2 px-4 rounded-md shadow cursor-pointer hover:bg-blue-200 transition-all duration-200 ease-in-out"
+          >
+            Cat
+          </li>
+          <li
+            class="bg-zinc-200 py-2 px-4 rounded-md shadow cursor-pointer hover:bg-blue-200 transition-all duration-200 ease-in-out"
+          >
+            Fish
+          </li>
+          <li
+            class="bg-zinc-200 py-2 px-4 rounded-md shadow cursor-pointer hover:bg-blue-200 transition-all duration-200 ease-in-out"
+          >
+            Lion
+          </li>
+        </ul>
+        <button
+          class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 ring-offset-2 px-4 py-3 text-blue-100 font-bold rounded-md transition-all duration-200 ease-in-out"
+        >
+          Adopt me!
+        </button>
+      </div>
+    </main>
   </body>
 </html>
